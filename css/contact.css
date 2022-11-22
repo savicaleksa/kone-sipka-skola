@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.input-group--radio {
+  flex-direction: row;
+}
+.input-group input,
+.input-group textarea {
+  padding: 0.75rem;
+  resize: none;
+  border-radius: 0.5rem;
+  accent-color: #7f57f1;
+  border: 2px solid #717171;
+  background-color: #3e3e3e;
+  color: #fafafa;
+}
+.input-group textarea {
+  min-height: 10rem;
+}
+.radio-group-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

@@ -1,0 +1,39 @@
+.two-col-container__logo {
+  display: none;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .two-col-container__logo {
+    display: flex;
+  }
+}
+.two-col-container__logo span {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.two-col-container__logo img {
+  height: 5rem;
+  width: 100%;
+  object-fit: contain;
+}
+.grid-center {
+  display: grid;
+  place-items: center;
+}
+.strength {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.strength:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+.strength svg {
+  font-size: 1.25rem;
+}
+.strength svg path {
+  color: #7f57f1;
+}

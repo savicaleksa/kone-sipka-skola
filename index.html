@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="Home desc" />
+    <title>Priboj Logistics</title>
+    <script src="./scripts/global.js" defer></script>
+    <script src="./scripts/faq.js" defer></script>
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+  </head>
+  <body>
+    <main>
+      <header class="desktop-navbar">
+        <div class="desktop-navbar__container">
+          <div class="desktop-navbar__logo">
+            <a href="/">
+              <img src="/img/PribojLogistics.svg" alt="Logo" />
+              <span>Priboj Logistics</span>
+            </a>
+          </div>
+          <nav class="desktop-navbar__nav">
+            <ul class="desktop-navbar__nav-list">
+              <li><a href="/">Home</a></li>
+              <li><a href="/about/">About</a></li>
+              <li><a href="/services/">Services</a></li>
+              <li><a href="/contact/">Contact</a></li>
+            </ul>
+          </nav>
+          <button class="nav-burger" id="nav-burger">
+            <div></div>
+
+            <span class="sr-only">Toggle menu</span>
+          </button>
+          <nav class="mobile-navbar" id="mobile-navbar">
+            <ul class="mobile-navbar__nav-list">
+              <li><a href="/">Home</a></li>
+              <li><a href="/about/">About</a></li>
+              <li><a href="/services/">Services</a></li>
+              <li><a href="/contact/">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <section class="hero full-height">
+        <div class="hero__text-wrapper">
+          <div class="hero__text-content">
+            <h1>PRIBOJ LOGISTICS</h1>
+            <p style="margin-bottom: 2rem">
+              Transportation company working nation-wide
+            </p>
+            <a href="/contact" class="btn btn-primary"> CONTACT US </a>
+          </div>
+        </div>
+        <div class="hero__image">
+          <img src="/img/webp/home/homeHero.webp" alt="" />
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__container">
+          <h1 class="section__heading">Welcome to Priboj Logistics</h1>
+
+          <div class="two-col-container">
+            <div
+              class="two-col-container__col two-col-container__image-container"
+            >
+              <img src="/img/webp/home/welcome.webp" alt="White truck" />
+            </div>
+            <div class="two-col-container__col">
+              <h2>Safety first! Feel like a member of the family</h2>
+              <p>
+                All employees are more than just employees in existing company
+                with experience at least 10 years. The family club includes
+                outside activities with all company members and their families,
+                based on interest. We offer bonuses for every refeered truck,
+                especially for the members of our family. Also, Christmas,
+                Easter and birthday presents imply.
+              </p>
+
+              <div class="two-col-container__col__btn-container">
+                <a href="/about" class="btn btn-primary"> ABOUT US </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__container">
+          <h1 class="section__heading">Why choose us?</h1>
+
+          <div class="services-grid">
+            <div class="grid-item">
+              <div class="grid-item__image-container">
+                <img
+                  loading="lazy"
+                  src="/img/webp/services/10.webp"
+                  alt="Available 24/7"
+                  class="grid-item__image"
+                />
+              </div>
+              <span class="grid-item__title">Available 24/7</span>
+              <p class="grid-item__description">
+                Twenty-four hours, seven days a week. We are here for you
+                whenever you need us.
+              </p>
+            </div>
+
+            <div class="grid-item">
+              <div class="grid-item__image-container">
+                <img
+                  loading="lazy"
+                  src="/img/webp/services/11.webp"
+                  alt="Becoming an owner-operator"
+                  class="grid-item__image"
+                />
+              </div>
+              <span class="grid-item__title">Becoming an owner-operator</span>
+              <p class="grid-item__description">
+                We also offer lease to purchase options.
+              </p>
+            </div>
+
+            <div class="grid-item">
+              <div class="grid-item__image-container">
+                <img
+                  loading="lazy"
+                  src="/img/webp/services/1.webp"
+                  alt="Dedicated runs"
+                  class="grid-item__image"
+                />
+              </div>
+              <span class="grid-item__title">Dedicated runs</span>
+              <p class="grid-item__description">
+                A dedicated run means a truck runs the same route for the same
+                customer.
+              </p>
+            </div>
+          </div>
+
+          <div class="btn-container">
+            <a href="/services" class="btn btn-primary"> OUR SERVICES </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section">
+        <div class="cta-section__text-wrapper">
+          <div class="cta-section__text-content">
+            <h1>INTERESTED IN WORKING WITH US?</h1>
+            <p style="margin-bottom: 2rem">
+              Give us a call, or send an email and we'll get back to you as soon
+              as possible.
+            </p>
+            <div class="cta-section__btn-container">
+              <a href="tel:+381628845322" class="btn btn-primary">
+                +381 62 8845 322
+              </a>
+
+              <a href="mailto:ceo@pribojlogistics.net" class="btn btn-primary">
+                ceo@pribojlogistics.net
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="cta-section__image">
+          <img loading="lazy" src="/img/webp/home/secondaryHero.webp" />
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__container">
+          <h1 class="section__heading">FAQ</h1>
+          <div class="question-group" data-open="false">
+            <button class="question-group__question">
+              What do I need to apply?
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                height="1em"
+                width="1em"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                ></path>
+              </svg>
+            </button>
+            <div class="question-group__answer">
+              <div>
+                <p>
+                  DMV driving record no older than 1 day, social number and
+                  driver&#39;s licence number.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="question-group" data-open="false">
+            <button class="question-group__question">
+              What do I need to become an owner-operator?
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                height="1em"
+                width="1em"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                ></path>
+              </svg>
+            </button>
+            <div class="question-group__answer">
+              <div>
+                <p>No banks, we got our own fleet for finance, just a CDL.</p>
+              </div>
+            </div>
+          </div>
+          <div class="question-group" data-open="false">
+            <button class="question-group__question">
+              Why do you call yourself &quot;the best&quot;?
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                height="1em"
+                width="1em"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                ></path>
+              </svg>
+            </button>
+            <div class="question-group__answer">
+              <div>
+                <p>
+                  We are a small company that treats everybody like family.
+                  Truckshows trucks more than welcome. Try to be unusual
+                  old-buddy styles. Always be good commercial and the good
+                  referee for the company wherever on the road.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__logo">
+            <a href="/">
+              <img src="/img/PribojLogistics.svg" alt="Logo" />
+              <span>Priboj Logistics</span>
+            </a>
+          </div>
+          <nav class="footer__nav">
+            <ul class="footer__nav-list">
+              <li><a href="/">Home</a></li>
+              <li><a href="/about/">About</a></li>
+              <li><a href="/services/">Services</a></li>
+              <li><a href="/contact/">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
